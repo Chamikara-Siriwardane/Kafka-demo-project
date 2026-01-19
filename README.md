@@ -84,7 +84,7 @@ To stop the Kafka broker:
 docker-compose down
 ```
 
-To stop and remove volumes:
+To stop and remove volumes (warning: this will delete all Kafka data):
 
 ```bash
 docker-compose down -v
